@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="NestedScrollBugBottomSheet">
+        <item name="shapeAppearance">?attr/shapeAppearanceLargeComponent</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="behavior_hideable">true</item>
+        <item name="behavior_draggable">true</item>
+        <item name="behavior_skipCollapsed">false</item>
+        <item name="behavior_peekHeight">288dp</item>
+        <item name="behavior_fitToContents">false</item>
+        <item name="behavior_halfExpandedRatio">0.55</item>
+        <item name="behavior_expandedOffset">24dp</item>
+    </style>
+
+    <style name="NestedScrollBugBottomSheetShapeAppearance" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">24dp</item>
+        <item name="cornerSizeTopLeft">24dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+</resources>

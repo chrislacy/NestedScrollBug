@@ -1,0 +1,36 @@
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+#bin/
+gen/
+out/
+
+# Ignored by AndroidStudio
+*.iws
+*.iml
+*.ipr
+.idea/
+
+local.properties
+
+# Folders related to builds and Gradle
+.gradle/
+*/build/
+build/
+
+.DS_Store
+classes/
+.idea/workspace.xml
+com_crashlytics_export_strings.xml
+
+# Android Studio
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*~
