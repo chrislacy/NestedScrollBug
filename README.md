@@ -2,7 +2,9 @@
 
 This sample app demonstrates a scrolling issue when using a Compose `LazyColumn` on a [`BottomSheetBehavior`](https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/bottomsheet/BottomSheetBehavior.java) based bottom sheet.
 
-![Screenshot](static/screenshot.png)
+The issue can be seen here:
+
+![Screenshot](static/bug.gif)
 
 Expected behavior: when the bottom sheet is expanded as pictured above, one can scroll through the list of content, and at any time, swipe down on the green header toolbar to collapse the bottom sheet.
 
